@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Vercel
+.vercel
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+
+# Editor
+.vscode/settings.json
+settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Kiro — ignore internal config, keep spec docs (design.md, requirements.md, tasks.md)
+.kiro/settings/
+.kiro/hooks/
+.kiro/steering/
+.kiro/specs/**/.config.kiro
