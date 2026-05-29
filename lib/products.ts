@@ -84,8 +84,7 @@ export const products: Product[] = [
     category: "Snacks",
     size: "per sachet",
     price: 300,
-    image:
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80",
+    image: "/milco-biscuit.jpeg",
     alt: "Milco Biscuits sachet",
   },
   {
@@ -104,8 +103,7 @@ export const products: Product[] = [
     category: "Staples",
     size: "per kg",
     price: 3000,
-    image:
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80",
+    image: "/fiberup.jpeg",
     alt: "Fibre-Up Swallow 1kg pack",
   },
   // Add-ins

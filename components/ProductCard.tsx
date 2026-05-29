@@ -17,12 +17,12 @@ export default function ProductCard({ product, index }: ProductCardProps) {
     <AnimatedSection delay={index * 0.1}>
       <div className="flex flex-col bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
         {/* Product Image */}
-        <div className="relative w-full aspect-[4/3] overflow-hidden">
+        <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#FFF8F0]">
           <Image
             src={product.image}
             alt={product.alt}
             fill
-            className="object-cover"
+            className="object-contain"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         </div>
